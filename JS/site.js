@@ -22,7 +22,7 @@ function generateNumbers(start, end) {
                 text: "Both values must be numbers"
             }
         );
-    } else if (start = end) {
+    } else if (start == end) {
         Swal.fire(
             {
                 backdrop: false,
